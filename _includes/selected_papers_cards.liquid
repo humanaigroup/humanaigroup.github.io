@@ -1,0 +1,5 @@
+<div class="selected-papers-cards">
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    {% bibliography --group_by none --query @*[selected=true]* --template bib_card %}
+  </div>
+</div>

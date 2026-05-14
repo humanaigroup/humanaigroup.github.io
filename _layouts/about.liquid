@@ -56,12 +56,17 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+    <!-- Join Us -->
+    {% if page.join_us and page.join_us.enabled %}
+      <h2>join us</h2>
+      <div class="join-us">
+        <p>We are recruiting <strong>research interns</strong>, <strong>PhD students</strong>, and <strong>postdocs</strong> who are interested in HCI and AI. If you are passionate about building intelligent interactive systems, we'd love to hear from you.</p>
+        <ul>
+          <li><strong>Research Interns</strong> — Undergraduate or master's students with experience in Python, web development, or machine learning.</li>
+          <li><strong>PhD Students</strong> — Applicants with strong research potential in HCI, NLP, or human-AI collaboration.</li>
+        </ul>
+        <p>To apply, please send your CV and a brief research statement to <a href="mailto:hello@humanaigroup.org">hello@humanaigroup.org</a>.</p>
+      </div>
     {% endif %}
 
     <!-- Social -->
@@ -71,6 +76,14 @@ layout: default
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
+    {% endif %}
+
+    <!-- Selected papers (cards) -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+      </h2>
+      {% include selected_papers_cards.liquid %}
     {% endif %}
 
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
