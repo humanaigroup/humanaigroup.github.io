@@ -4,14 +4,17 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">
-      {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
-        {{ site.last_name }}
-      {% else %}
-        {{ site.title }}
-      {% endif %}
+      <span class="lang-toggle active" data-lang="en" onclick="toggleLang('en')">Human AI Group</span>
+      <span class="title-divider"> | </span>
+      <span class="lang-toggle inactive" data-lang="zh" onclick="toggleLang('zh')">人与智能系统</span>
     </h1>
-    <p class="desc">{{ page.subtitle }}</p>
+    <p class="desc">
+      <span class="lang-content" data-lang="en">{{ page.subtitle }}</span>
+      <span class="lang-content" data-lang="zh" style="display:none">
+        <a href="https://www.zju.edu.cn/" target="_blank">浙江大学</a> ·
+        <a href="https://ai.zju.edu.cn/" target="_blank">人工智能学院</a>
+      </span>
+    </p>
   </header>
 
   <article>
@@ -22,18 +25,22 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
           %}
         {% endif %}
         {% if page.profile.more_info %}
-          <div class="more-info">{{ page.profile.more_info }}</div>
+          <div class="more-info">
+            <div class="lang-content" data-lang="en">{{ page.profile.more_info }}</div>
+            <div class="lang-content" data-lang="zh" style="display:none">
+              <p>浙江大学紫金港校区月牙楼303室</p>
+              <p>杭州，中国</p>
+            </div>
+          </div>
         {% endif %}
       </div>
     {% endif %}
@@ -43,7 +50,10 @@ layout: default
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">
+          <span class="lang-content" data-lang="en">news</span>
+          <span class="lang-content" data-lang="zh" style="display:none">新闻动态</span>
+        </a>
       </h2>
       {% include news.liquid limit=true %}
     {% endif %}
@@ -58,14 +68,27 @@ layout: default
 
     <!-- Join Us -->
     {% if page.join_us and page.join_us.enabled %}
-      <h2>join us</h2>
+      <h2>
+        <span class="lang-content" data-lang="en">join us</span>
+        <span class="lang-content" data-lang="zh" style="display:none">加入我们</span>
+      </h2>
       <div class="join-us">
-        <p>We are recruiting <strong>research interns</strong>, <strong>PhD students</strong>, and <strong>postdocs</strong> who are interested in HCI and AI. If you are passionate about building intelligent interactive systems, we'd love to hear from you.</p>
-        <ul>
-          <li><strong>Research Interns</strong> — Undergraduate or master's students with experience in Python, web development, or machine learning.</li>
-          <li><strong>PhD Students</strong> — Applicants with strong research potential in HCI, NLP, or human-AI collaboration.</li>
-        </ul>
-        <p>To apply, please send your CV and a brief research statement to <a href="mailto:wxiang@zju.edu.cn">wxiang@zju.edu.cn</a>.</p>
+        <div class="lang-content" data-lang="en">
+          <p>We are recruiting <strong>research interns</strong>, <strong>PhD students</strong>, and <strong>postdocs</strong> who are interested in HCI and AI. If you are passionate about building intelligent interactive systems, we'd love to hear from you.</p>
+          <ul>
+            <li><strong>Research Interns</strong> — Undergraduate or master's students with experience in Python, web development, or machine learning.</li>
+            <li><strong>PhD Students</strong> — Applicants with strong research potential in HCI, NLP, or human-AI collaboration.</li>
+          </ul>
+          <p>To apply, please send your CV and a brief research statement to <a href="mailto:wxiang@zju.edu.cn">wxiang@zju.edu.cn</a>.</p>
+        </div>
+        <div class="lang-content" data-lang="zh" style="display:none">
+          <p>我们正在招收<strong>科研实习生</strong>、<strong>博士研究生</strong>和<strong>博士后</strong>，欢迎对人机交互和人工智能感兴趣的同学加入。</p>
+          <ul>
+            <li><strong>科研实习生</strong> — 本科生或硕士生，具有 Python、Web 开发或机器学习经验。</li>
+            <li><strong>博士研究生</strong> — 在人机交互、自然语言处理或人机协同方向有较强研究潜力。</li>
+          </ul>
+          <p>请将简历和简要研究计划发送至 <a href="mailto:wxiang@zju.edu.cn">wxiang@zju.edu.cn</a>。</p>
+        </div>
       </div>
     {% endif %}
 
@@ -73,7 +96,6 @@ layout: default
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% social_links %}</div>
-
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
@@ -81,7 +103,10 @@ layout: default
     <!-- Selected papers (cards) -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">
+          <span class="lang-content" data-lang="en">selected publications</span>
+          <span class="lang-content" data-lang="zh" style="display:none">精选论文</span>
+        </a>
       </h2>
       {% include selected_papers_cards.liquid %}
     {% endif %}
@@ -91,3 +116,25 @@ layout: default
     {% endif %}
   </article>
 </div>
+
+<script>
+function toggleLang(lang) {
+  document.querySelectorAll('.lang-content').forEach(function(el) {
+    el.style.display = el.dataset.lang === lang ? '' : 'none';
+  });
+  document.querySelectorAll('.lang-toggle').forEach(function(el) {
+    if (el.dataset.lang === lang) {
+      el.classList.add('active');
+      el.classList.remove('inactive');
+    } else {
+      el.classList.remove('active');
+      el.classList.add('inactive');
+    }
+  });
+  localStorage.setItem('preferred-lang', lang);
+}
+document.addEventListener('DOMContentLoaded', function() {
+  var lang = localStorage.getItem('preferred-lang') || 'en';
+  toggleLang(lang);
+});
+</script>

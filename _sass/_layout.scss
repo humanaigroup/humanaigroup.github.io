@@ -40,6 +40,30 @@ body.sticky-bottom-footer {
   }
 }
 
+// Language toggle
+.lang-toggle {
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+
+  &.active {
+    opacity: 1;
+  }
+
+  &.inactive {
+    font-weight: normal;
+    opacity: 0.35;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}
+
+.title-divider {
+  opacity: 0.25;
+  font-weight: normal;
+}
+
 // Content layout uses Bootstrap's grid system with responsive columns
 // Main content flows naturally through container-mt-5 and Bootstrap grid classes
 // See _layouts/default.liquid and _includes/projects.liquid for examples

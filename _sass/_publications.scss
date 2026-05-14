@@ -188,6 +188,20 @@
 }
 
 .selected-papers-cards {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+    @media (max-width: 767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .col {
+    max-width: 100%;
+  }
+
   .pub-card {
     border: 1px solid var(--global-divider-color);
     border-radius: 10px;
