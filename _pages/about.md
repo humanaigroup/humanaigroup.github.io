@@ -32,4 +32,8 @@ join_us:
 
 We are the **Human AI Group**, led by **[Dr. Wei Xiang (向为)](https://person.zju.edu.cn/0617496)**, Associate Professor at the College of Artificial Intelligence, Zhejiang University.
 
-Our research focuses on **Intelligent Design** and **Human-AI Interaction** — exploring how people and AI systems can collaborate more effectively. We build interactive systems that augment human capabilities in driving, creativity, communication, and accessibility.
+We live in an era of ubiquitous intelligent systems, where deep integration between humans and AI has become an inevitable trend. Our group is dedicated to solving **human-machine collaboration challenges in complex, dynamic, and high-risk scenarios** — in autonomous driving, intelligent cockpits, medical surgery, and beyond — designing and applying cutting-edge technologies to achieve efficient, safe, and human-centered human-machine symbiosis.
+
+Our research focuses on three key areas: **(1) human-machine collaborative perception** in complex environments such as autonomous driving and aviation; **(2) experience computing and design powered by large models**, building computational models that simulate, predict, and optimize user experience; and **(3) AI Agent-integrated intelligent hardware** for real-world applications in skill training, healthcare, and rehabilitation.
+
+We have led 10+ national and provincial research projects (NSFC, National Key R&D Program), and collaborate closely with industry leaders including Alibaba, Huawei, ByteDance, and XCMG. Our work has been published in top venues (CHI, IJCAI, IEEE T-ITS, Design Studies, IJHCS) with 10+ invention patents granted.

@@ -5,7 +5,7 @@ permalink: /research/
 description: Our research directions and ongoing projects.
 nav: true
 nav_order: 2
-display_categories: [human-ai interaction, intelligent interfaces, ai-assisted creativity]
+display_categories: [human-ai interaction, intelligent design]
 horizontal: false
 ---
 
