@@ -7,13 +7,13 @@ first_name: Human
 middle_name:
 last_name: AI Group
 contact_note: >
-  Interested in joining us? See the Join Us section on our homepage.
+  Email: <a href="mailto:wxiang@zju.edu.cn">wxiang@zju.edu.cn</a>
 description: >
-  Human AI Group — research at the intersection of human-computer interaction and artificial intelligence.
+  Human AI Group @ Zhejiang University — Intelligent Design & Human-AI Interaction.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: HCI, AI, human-computer interaction, research lab
+keywords: HCI, AI, human-AI interaction, intelligent design, Zhejiang University
 lang: en
 icon: 🧠
 

@@ -2,13 +2,18 @@
 layout: about
 title: home
 permalink: /
-subtitle: Research at the intersection of Human-Computer Interaction and Artificial Intelligence.
+subtitle: >
+  <a href="https://www.zju.edu.cn/" target="_blank">Zhejiang University</a> · 
+  <a href="https://ai.zju.edu.cn/" target="_blank">College of Artificial Intelligence</a>
 
 profile:
   align: right
   image: group_photo.jpg
   image_circular: false
-  more_info:
+  more_info: >
+    <p>Room 303, Yueya Building</p>
+    <p>Zijingang Campus, Zhejiang University</p>
+    <p>Hangzhou, China</p>
 
 selected_papers: true
 social: true
@@ -25,6 +30,6 @@ join_us:
   enabled: true
 ---
 
-We are the **Human AI Group**, exploring how people and AI systems can collaborate more effectively. Our research spans human-computer interaction, intelligent interfaces, and AI-assisted creativity.
+We are the **Human AI Group**, led by **[Dr. Wei Xiang (向为)](https://person.zju.edu.cn/0617496)**, Associate Professor at the College of Artificial Intelligence, Zhejiang University.
 
-We are always looking for passionate researchers and students to join us. See below for open positions.
+Our research focuses on **Intelligent Design** and **Human-AI Interaction** — exploring how people and AI systems can collaborate more effectively. We build interactive systems that augment human capabilities in driving, creativity, communication, and accessibility.
