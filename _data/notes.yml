@@ -7,7 +7,7 @@
   quote: 'AI 在用户研究中"做得越好"反而越不像用户。Sauro 2024 和 Synthetic CW 2025 从两个独立角度证明，"反超"在 UX 研究中是失败信号——这与传统 ML 评估（performance 越高越好）恰恰相反。'
   word_count: 5200
   featured: true
-  url: '#'
+  url: '/reading/synthetic-users/'
 
 - title_zh: '传统设计流程已死——一位 Anthropic IC 的观察'
   subtitle_zh: ''
@@ -18,7 +18,7 @@
   quote: '设计师一直被教的那套设计流程，我们几乎把它当成教条。现在它基本已经死了。能快速执行、把东西做出来、用真实数据去试、以真实用户为中心去验证，才会带来更好的产品。'
   word_count: 2800
   featured: false
-  url: '#'
+  url: '/reading/jenny-design/'
 
 - title_zh: 'AI 产品设计的四步框架——从 NotebookLM 说起'
   subtitle_zh: ''
@@ -29,7 +29,7 @@
   quote: 'AI 产品的 user needs 不是"用户要什么功能"，而是"AI 应该接管/辅助用户的哪一段认知过程"。这是 AI-native 与 SaaS-native 的根本分野。'
   word_count: 6500
   featured: false
-  url: '#'
+  url: '/reading/ai-product-framework/'
 
 - title_zh: '把"宪法"交给 AI 自己学'
   subtitle_zh: '——读 Constitutional AI'
@@ -40,7 +40,7 @@
   quote: '这篇文章最值得反复读的，不是 RLHF 的替代方案——而是它隐含的判断：在长尾对齐问题上，人类反馈的稀疏性可能本身就是瓶颈。'
   word_count: 1240
   featured: false
-  url: '#'
+  url: '/reading/constitutional-ai/'
 
 - title_zh: '让 LLM 学会开车，是真本事还是剧本？'
   subtitle_zh: ''
@@ -51,7 +51,7 @@
   quote: ''
   word_count: 0
   featured: false
-  url: '#'
+  url: '/reading/gpt-driver/'
 
 - title_zh: '用 25 个 NPC 模拟一个小镇'
   subtitle_zh: ''
@@ -62,4 +62,4 @@
   quote: ''
   word_count: 0
   featured: false
-  url: '#'
+  url: '/reading/generative-agents/'

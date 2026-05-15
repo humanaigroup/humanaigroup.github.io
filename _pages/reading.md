@@ -20,7 +20,7 @@ page_tagline: "Papers and ideas the group thinks are worth reading and writing a
     <div class="reading-card-meta">{{ note.paper_meta }}</div>
   </div>
   <div class="reading-card-body">
-    <h3 class="reading-card-title zh">{{ note.title_zh }}</h3>
+    <h3 class="reading-card-title zh"><a href="{{ note.url | relative_url }}">{{ note.title_zh }}</a></h3>
     {% if note.subtitle_zh != '' %}<div class="reading-card-subtitle zh">{{ note.subtitle_zh }}</div>{% endif %}
     {% if note.quote != '' %}
     <blockquote class="reading-card-quote">{{ note.quote }}</blockquote>

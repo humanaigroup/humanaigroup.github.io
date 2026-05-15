@@ -67,7 +67,7 @@
           </div>
           {% endfor %}
           <div class="hero-sidebar-footer">
-            <a href="#" class="link-cta">View all activity →</a>
+            <a href="{{ '/reading/' | relative_url }}" class="link-cta">View all activity →</a>
           </div>
         </aside>
       </div>
@@ -202,7 +202,7 @@
           <blockquote class="note-quote">{{ featured_note.quote }}</blockquote>
           <div class="note-footer">
             <span class="note-author">— {{ featured_note.author }}</span>
-            <a href="{{ featured_note.url }}" class="note-read">Read full note ({{ featured_note.word_count }} 字) →</a>
+            <a href="{{ featured_note.url | relative_url }}" class="note-read">Read full note ({{ featured_note.word_count }} 字) →</a>
           </div>
         </div>
         {% endif %}
@@ -218,7 +218,7 @@
             <div class="note-sm-title zh">{{ note.title_zh }}</div>
             <div class="note-sm-footer">
               <span class="note-sm-author">— {{ note.author }}</span>
-              <a href="{{ note.url }}" class="note-sm-read">Read →</a>
+              <a href="{{ note.url | relative_url }}" class="note-sm-read">Read →</a>
             </div>
           </div>
           {% endfor %}
