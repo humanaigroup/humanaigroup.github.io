@@ -15,20 +15,19 @@ page_tagline: "PI, students, and researchers in the group."
 
 <div class="people-section-label">PRINCIPAL INVESTIGATOR · 课题组长</div>
 
-<div class="pi-row">
-  <div class="pi-photo">{% if pi.photo != "" %}<img src="{{ pi.photo | relative_url }}" alt="{{ pi.name }}">{% else %}[PI photo]{% endif %}</div>
-  <div class="pi-info">
-    <div class="pi-name">{{ pi.name }}</div>
-    <div class="pi-name-zh zh">{{ pi.name_zh }}</div>
-    <div class="pi-title">{{ pi.title_en }}</div>
-    <div class="pi-title-zh zh">{{ pi.title_zh }}</div>
-    <div class="pi-sep"></div>
-    <p class="pi-bio">{{ pi.bio }}</p>
-    <div class="pi-links">
-      <a href="mailto:{{ pi.email }}" class="pi-email">{{ pi.email }}</a>
-      <a href="{{ pi.scholar }}">Google Scholar →</a>
-      <a href="{{ pi.dblp }}">DBLP →</a>
-      <a href="{{ pi.github }}">GitHub →</a>
+<div class="phd-grid">
+  <div class="member-card">
+    <div class="member-photo phd-photo">{% if pi.photo != "" %}<img src="{{ pi.photo | relative_url }}" alt="{{ pi.name }}">{% endif %}</div>
+    <div>
+      <div class="member-name">{{ pi.name }}</div>
+      <div class="member-name-zh zh">{{ pi.name_zh }}</div>
+      <div class="member-role">{{ pi.title_en }}</div>
+      <div class="member-interest">{{ pi.bio }}</div>
+      <div class="pi-links">
+        <a href="mailto:{{ pi.email }}" class="pi-email">{{ pi.email }}</a>
+        <a href="{{ pi.scholar }}">Google Scholar →</a>
+        <a href="{{ pi.github }}">GitHub →</a>
+      </div>
     </div>
   </div>
 </div>
