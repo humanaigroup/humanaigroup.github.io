@@ -8,7 +8,7 @@ nav_active: publications
 page_title_short: Publications
 page_eyebrow: "PUBLICATIONS · 论文"
 page_title_display: "Publications · 发表论文"
-page_tagline: "35 papers across HCI, AI, and human-AI collaboration venues."
+page_tagline: "Selected papers across HCI, AI, and human-AI collaboration venues."
 ---
 
 <div class="pub-filter">

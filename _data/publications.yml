@@ -1,72 +1,181 @@
-- title: "Pika: Designing a social-support agent to improve drivers' experience in gig work"
-  authors: "Wei Xiang, Xiang Chen, Ting Guo, Mingming Zhou, Shuai Chen"
+# ===== 2025 =====
+
+- title: 'Pika: Designing a social-support agent to improve drivers'' experience in gig work'
+  authors: 'Wei Xiang, Xiang Chen, Ting Guo, Mingming Zhou, Shuai Chen'
   venue: IJHCS
   year: 2025
   direction: user-simulation
   tier: top
   type: paper
   links:
-    pdf: "#"
-    doi: "#"
-    bib: "#"
+    pdf: '#'
+    doi: '#'
 
-- title: "Visionary Co-Driver: Enhancing driver perception of potential risks"
-  authors: "Wei Xiang, Zhenxing Lei, Haoyan Che, Fangzhou Ye et al."
+- title: 'Visionary Co-Driver: Enhancing Driver Perception of Potential Risks With LLM and HUD'
+  authors: 'Wei Xiang, Zhenxing Lei, Haoyan Che, Fangzhou Ye, Xiangshi Wu, Lian Sun'
   venue: T-ITS
   year: 2025
   direction: co-perception
   tier: top
   type: paper
   links:
-    pdf: "#"
-    doi: "#"
-    bib: "#"
+    pdf: '#'
+    doi: '#'
 
-- title: "Hand by Hand: LLM driving EMS assistant for operational skill learning"
-  authors: "Wei Xiang, Zhenxing Lei, Haoyan Che, Fangzhou Ye et al."
+- title: 'Exploring Risky Events and Driver Responses in Automated Driving: Insights from Real-world Videos'
+  authors: 'Wei Xiang, Chuyue Zhang, Jie Yan'
+  venue: DAAI
+  year: 2025
+  direction: co-perception
+  tier: secondary
+  type: paper
+  links:
+    pdf: '#'
+    doi: '#'
+
+- title: 'Hand by Hand: LLM Driving EMS Assistant for Operational Skill Learning'
+  authors: 'Wei Xiang, Zhenxing Lei, Haoyan Che, Fangzhou Ye, Xiangshi Wu, Lian Sun'
   venue: IJCAI
   year: 2025
   direction: embodied-coaching
   tier: top
   type: paper
   links:
-    pdf: "#"
-    code: "#"
-    bib: "#"
+    pdf: '#'
+    doi: '#'
 
-- title: "CareEmo: Supporting caregivers with personalized communication approaches"
-  authors: "Meng Li, Wei Xiang, Yi He, Menghan Jiang, Xiangshi Wu"
+- title: 'CareEmo: Supporting Caregivers with Personalized Communication Approaches to Enhance Older Adults'' Emotional Well-being'
+  authors: 'Meng Li, Wei Xiang, Yi He, Menghan Jiang, Xiangshi Wu'
   venue: SMC
   year: 2025
   direction: earlier
   tier: secondary
   type: paper
   links:
-    pdf: "#"
-    doi: "#"
-    bib: "#"
+    pdf: '#'
+    doi: '#'
 
-- title: "Voice by the Non-sighted: Practices and challenges of audiobook voice actors"
-  authors: "Shuai Chen, Jiayi Zhang, Shixian Lou, Xiaoyu Wang, Wei Xiang, Lian Sun"
+- title: 'Voice by the Non-sighted: Practices and Challenges of Audiobook Voice Actors with Blind and Low Vision in China'
+  authors: 'Shuai Chen, Jiayi Zhang, Shixian Lou, Xiaoyu Wang, Wei Xiang, Lian Sun'
   venue: CHI
   year: 2025
   direction: user-simulation
   tier: top
   type: paper
   links:
-    pdf: "#"
-    doi: "#"
-    bib: "#"
+    pdf: '#'
+    doi: '#'
 
-- title: "SimUser: Generating usability feedback by simulating various users"
-  authors: "Wei Xiang, Hanxian Zhu, Shixian Lou, Xiang Chen et al."
+# ===== 2024 =====
+
+- title: 'SimUser: Generating Usability Feedback by Simulating Various Users Interacting with Mobile Applications'
+  authors: 'Wei Xiang, Hanxian Zhu, Shixian Lou, Xiang Chen, Zihan Pan, Yiwen Jin, Shuai Chen, Lian Sun'
   venue: CHI
   year: 2024
   direction: user-simulation
   tier: top
   type: paper
   links:
-    pdf: "#"
-    abs: "#"
-    doi: "#"
-    bib: "#"
+    pdf: '#'
+    doi: '#'
+
+- title: 'Differed Risk Perception in Manual and Automated Driving: An Empirical Study of Varied Conditions'
+  authors: 'Wei Xiang, Yida Huang'
+  venue: IJHCI
+  year: 2024
+  direction: co-perception
+  tier: top
+  type: paper
+  links:
+    pdf: '#'
+    doi: '#'
+
+- title: 'How Do Emotions Evolve? The Effect of Emotions in the Interactive Scenes of a New Product Trial'
+  authors: 'Yu Zhou, Wei Xiang, Hanyue Jiang, Kecheng Zuo, Yifan Lu'
+  venue: The Design Journal
+  year: 2024
+  direction: earlier
+  tier: secondary
+  type: paper
+  links:
+    pdf: '#'
+    doi: '#'
+
+- title: 'Feedback or Takeover: The Impact of Risk and Driver State on Intervention Behaviors in Automated Driving'
+  authors: 'Muchen Li, Chuyue Zhang, Wei Xiang'
+  venue: IHMSC
+  year: 2024
+  direction: co-perception
+  tier: secondary
+  type: paper
+  links:
+    pdf: '#'
+    doi: '#'
+
+- title: 'CNAMD Corpus: A Chinese Natural Audiovisual Multimodal Database of Conversations for Social Interactive Agents'
+  authors: 'Jingying Wu, Shuai Chen, Wei Xiang, Lian Sun, Hao Zhang, Zhongxin Zhang, Yuqing Li'
+  venue: IJHCI
+  year: 2024
+  direction: earlier
+  tier: top
+  type: paper
+  links:
+    pdf: '#'
+    doi: '#'
+
+# ===== 2023 =====
+
+- title: 'SocializeChat: A GPT-based AAC Tool for Social Communication Through Eye Gazing'
+  authors: 'Yuyang Fang, Yunkai Xu, Zhuyu Teng, Zhaoqu Jiang, Wei Xiang'
+  venue: UbiComp
+  year: 2023
+  direction: earlier
+  tier: top
+  type: paper
+  links:
+    pdf: '#'
+    doi: '#'
+
+- title: 'Dangerous Slime: A Game for Improving Situation Awareness in Automated Driving'
+  authors: 'Yue Wu, Linhao Ye, Xianzhe Zheng, Hanfei Zhu, Wei Xiang'
+  venue: AutomotiveUI
+  year: 2023
+  direction: co-perception
+  tier: top
+  type: paper
+  links:
+    pdf: '#'
+    doi: '#'
+
+- title: 'Supporting Crowd Workers in Ideation Tasks Through Information Gathering and Reflective Activity'
+  authors: 'Lian Sun, Wanling Gao, Wei Xiang'
+  venue: IJHCI
+  year: 2023
+  direction: earlier
+  tier: top
+  type: paper
+  links:
+    pdf: '#'
+    doi: '#'
+
+- title: 'A Personality-centred Design Approach for Virtual Humans on Correspondence with Roles and Behaviors'
+  authors: 'Shi Chen, Zhiying Zhu, Xiaodong Wang, Yuyang Zhang, Suqi Lou, Wei Xiang'
+  venue: IASDR
+  year: 2023
+  direction: earlier
+  tier: secondary
+  type: paper
+  links:
+    pdf: '#'
+    doi: '#'
+
+- title: 'Interesting and Impressive: Exploring Design Factors for Product Graphics Interchange Format to Enhance Engagement'
+  authors: 'Wei Xiang, Ting Guo, Wanling Gao, Xiaoyu Wang, Zhenxing Lei, Xiaowen Liu, Lian Sun'
+  venue: Design Science
+  year: 2023
+  direction: earlier
+  tier: secondary
+  type: paper
+  links:
+    pdf: '#'
+    doi: '#'

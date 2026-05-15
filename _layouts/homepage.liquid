@@ -163,7 +163,7 @@
             <div class="lab-title">{{ pub.title }}</div>
             <div class="lab-authors">{{ pub.authors | truncatewords: 8 }}</div>
           </div>
-          <a href="{{ pub.links.pdf | default: '#' }}" class="lab-cta">Read →</a>
+          <div class="lab-venue-tag">{{ pub.venue }}</div>
         </div>
         {% endfor %}
       </div>
