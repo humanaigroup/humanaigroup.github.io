@@ -1,7 +1,7 @@
 # ===== 2025 =====
 
 - title: 'Pika: Designing a social-support agent to improve drivers'' experience in gig work'
-  authors: 'Wei Xiang, Xiang Chen, Ting Guo, Mingming Zhou, Shuai Chen'
+  authors: 'Wei Xiang, Xinli Chen, Tianhui Guo, Min Zhou, Shi Chen'
   venue: IJHCS
   year: 2025
   direction: user-simulation
@@ -12,7 +12,7 @@
     doi: '#'
 
 - title: 'Visionary Co-Driver: Enhancing Driver Perception of Potential Risks With LLM and HUD'
-  authors: 'Wei Xiang, Zhenxing Lei, Haoyan Che, Fangzhou Ye, Xiangshi Wu, Lian Sun'
+  authors: 'Wei Xiang, Ziyue Lei, Jie Wang, Yingying Huang, Qi Zheng, Tianyi Zhang, An Zhao, Lingyun Sun'
   venue: T-ITS
   year: 2025
   direction: co-perception
@@ -34,7 +34,7 @@
     doi: '#'
 
 - title: 'Hand by Hand: LLM Driving EMS Assistant for Operational Skill Learning'
-  authors: 'Wei Xiang, Zhenxing Lei, Haoyan Che, Fangzhou Ye, Xiangshi Wu, Lian Sun'
+  authors: 'Wei Xiang, Ziyue Lei, Haoyuan Che, Fangyuan Ye, Xueting Wu, Lingyun Sun'
   venue: IJCAI
   year: 2025
   direction: embodied-coaching
@@ -45,7 +45,7 @@
     doi: '#'
 
 - title: 'CareEmo: Supporting Caregivers with Personalized Communication Approaches to Enhance Older Adults'' Emotional Well-being'
-  authors: 'Meng Li, Wei Xiang, Yi He, Menghan Jiang, Xiangshi Wu'
+  authors: 'Muchen Li, Wei Xiang, Yuyu He, Mengyun Jiang, Xueting Wu'
   venue: SMC
   year: 2025
   direction: earlier
@@ -56,7 +56,7 @@
     doi: '#'
 
 - title: 'Voice by the Non-sighted: Practices and Challenges of Audiobook Voice Actors with Blind and Low Vision in China'
-  authors: 'Shuai Chen, Jiayi Zhang, Shixian Lou, Xiaoyu Wang, Wei Xiang, Lian Sun'
+  authors: 'Shi Chen, Jingao Zhang, Suqi Lou, Xiaodong Wang, Wei Xiang, Lingyun Sun'
   venue: CHI
   year: 2025
   direction: user-simulation
@@ -69,7 +69,7 @@
 # ===== 2024 =====
 
 - title: 'SimUser: Generating Usability Feedback by Simulating Various Users Interacting with Mobile Applications'
-  authors: 'Wei Xiang, Hanxian Zhu, Shixian Lou, Xiang Chen, Zihan Pan, Yiwen Jin, Shuai Chen, Lian Sun'
+  authors: 'Wei Xiang, Hanfei Zhu, Suqi Lou, Xinli Chen, Zhenghua Pan, Yuping Jin, Shi Chen, Lingyun Sun'
   venue: CHI
   year: 2024
   direction: user-simulation
@@ -80,7 +80,7 @@
     doi: '#'
 
 - title: 'Differed Risk Perception in Manual and Automated Driving: An Empirical Study of Varied Conditions'
-  authors: 'Wei Xiang, Yida Huang'
+  authors: 'Wei Xiang, Yingying Huang'
   venue: IJHCI
   year: 2024
   direction: co-perception
@@ -91,7 +91,7 @@
     doi: '#'
 
 - title: 'How Do Emotions Evolve? The Effect of Emotions in the Interactive Scenes of a New Product Trial'
-  authors: 'Yu Zhou, Wei Xiang, Hanyue Jiang, Kecheng Zuo, Yifan Lu'
+  authors: 'Yi Zhou, Wei Xiang, Hao Jiang, Kui Zuo, Yujia Lu'
   venue: The Design Journal
   year: 2024
   direction: earlier
@@ -113,7 +113,7 @@
     doi: '#'
 
 - title: 'CNAMD Corpus: A Chinese Natural Audiovisual Multimodal Database of Conversations for Social Interactive Agents'
-  authors: 'Jingying Wu, Shuai Chen, Wei Xiang, Lian Sun, Hao Zhang, Zhongxin Zhang, Yuqing Li'
+  authors: 'Jingyu Wu, Shi Chen, Wei Xiang, Lingyun Sun, Hongzeng Zhang, Zhengyu Zhang, Yanxu Li'
   venue: IJHCI
   year: 2024
   direction: earlier
@@ -125,7 +125,7 @@
 
 # ===== 2023 =====
 
-- title: 'SocializeChat: A GPT-based AAC Tool for Social Communication Through Eye Gazing'
+- title: 'SocializeChat: a GPT-based AAC Tool for Social Communication Through Eye Gazing'
   authors: 'Yuyang Fang, Yunkai Xu, Zhuyu Teng, Zhaoqu Jiang, Wei Xiang'
   venue: UbiComp
   year: 2023
@@ -148,7 +148,7 @@
     doi: '#'
 
 - title: 'Supporting Crowd Workers in Ideation Tasks Through Information Gathering and Reflective Activity'
-  authors: 'Lian Sun, Wanling Gao, Wei Xiang'
+  authors: 'Lingyun Sun, Weiyue Gao, Wei Xiang'
   venue: IJHCI
   year: 2023
   direction: earlier
@@ -170,7 +170,7 @@
     doi: '#'
 
 - title: 'Interesting and Impressive: Exploring Design Factors for Product Graphics Interchange Format to Enhance Engagement'
-  authors: 'Wei Xiang, Ting Guo, Wanling Gao, Xiaoyu Wang, Zhenxing Lei, Xiaowen Liu, Lian Sun'
+  authors: 'Wei Xiang, Tianhui Guo, Weiyue Gao, Xueyou Wang, Ziyue Lei, Xuanhui Liu, Lingyun Sun'
   venue: Design Science
   year: 2023
   direction: earlier

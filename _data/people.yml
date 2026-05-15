@@ -12,65 +12,65 @@
   photo: ""
 
 ## PhD Students
-- name: "Zhenxing Lei"
-  name_zh: "雷镇兴"
+- name: "Ziyue Lei"
+  name_zh: "雷子越"
   role: phd
   year: 2023
   interest: "Risk perception in automated driving."
   photo: ""
 
-- name: "Hanxian Zhu"
-  name_zh: "朱晗萱"
+- name: "Hanfei Zhu"
+  name_zh: "朱晗飞"
   role: phd
   year: 2024
   interest: "LLM-based user simulation."
   photo: ""
 
-- name: "Shixian Lou"
-  name_zh: "楼世贤"
+- name: "Suqi Lou"
+  name_zh: "楼苏琪"
   role: phd
   year: 2024
   interest: "AI agents in skilled training."
   photo: ""
 
 ## Master Students
-- name: "Haoyan Che"
-  name_zh: "车浩岩"
+- name: "Haoyuan Che"
+  name_zh: "车浩源"
   role: master
   year: 2024
   interest: "HUD interfaces for driving."
   photo: ""
 
-- name: "Fangzhou Ye"
-  name_zh: "叶方舟"
+- name: "Fangyuan Ye"
+  name_zh: "叶方圆"
   role: master
   year: 2024
   interest: "EMS skill learning systems."
   photo: ""
 
-- name: "Xiangshi Wu"
-  name_zh: "吴翔实"
+- name: "Xueting Wu"
+  name_zh: "吴雪婷"
   role: master
   year: 2025
   interest: "Multimodal driver interfaces."
   photo: ""
 
-- name: "Jiayi Zhang"
-  name_zh: "张佳怡"
+- name: "Jingao Zhang"
+  name_zh: "张锦高"
   role: master
   year: 2025
   interest: "Accessibility & voice interfaces."
   photo: ""
 
 ## Alumni
-- name: "Yufei Huang"
-  name_zh: "黄宇飞"
+- name: "Yingying Huang"
+  name_zh: "黄莹莹"
   role: alumni
   degree: "MASTER · 2024"
   now: "now at ByteDance"
 
-- name: "Wanying Gao"
-  name_zh: "高婉莹"
+- name: "Weiyue Gao"
+  name_zh: "高维悦"
   role: alumni
   degree: "PHD · 2023"
   now: "now Assistant Prof at TJU"
