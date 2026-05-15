@@ -1,3 +1,36 @@
+- title_zh: 'AI 做用户研究，"比真人更准"反而是失败信号'
+  subtitle_zh: '——业界对 Synthetic Users 的批判与方法论修正'
+  paper: '业界对 Synthetic Users 的批判性实践与方法论修正'
+  paper_meta: 'IDEO · NN/g · MeasuringU · 2024-2026 文献综述'
+  date: '2026-05-15'
+  author: 'Wei Xiang'
+  quote: 'AI 在用户研究中"做得越好"反而越不像用户。Sauro 2024 和 Synthetic CW 2025 从两个独立角度证明，"反超"在 UX 研究中是失败信号——这与传统 ML 评估（performance 越高越好）恰恰相反。'
+  word_count: 5200
+  featured: true
+  url: '#'
+
+- title_zh: '传统设计流程已死——一位 Anthropic IC 的观察'
+  subtitle_zh: ''
+  paper: 'Thoughts from Jenny · AI × Design Practice'
+  paper_meta: 'Jenny · Anthropic Design IC · 2025'
+  date: '2026-05-15'
+  author: 'Wei Xiang'
+  quote: '设计师一直被教的那套设计流程，我们几乎把它当成教条。现在它基本已经死了。能快速执行、把东西做出来、用真实数据去试、以真实用户为中心去验证，才会带来更好的产品。'
+  word_count: 2800
+  featured: false
+  url: '#'
+
+- title_zh: 'AI 产品设计的四步框架——从 NotebookLM 说起'
+  subtitle_zh: ''
+  paper: 'AI 产品 User Needs 与功能：四步框架'
+  paper_meta: 'PAIR Guidebook · NotebookLM 实践 · 教学材料'
+  date: '2026-05-15'
+  author: 'Wei Xiang'
+  quote: 'AI 产品的 user needs 不是"用户要什么功能"，而是"AI 应该接管/辅助用户的哪一段认知过程"。这是 AI-native 与 SaaS-native 的根本分野。'
+  word_count: 6500
+  featured: false
+  url: '#'
+
 - title_zh: '把"宪法"交给 AI 自己学'
   subtitle_zh: '——读 Constitutional AI'
   paper: 'Constitutional AI: Harmlessness from AI Feedback'
@@ -6,7 +39,7 @@
   author: 'Hanxian Zhu, PhD student'
   quote: '这篇文章最值得反复读的，不是 RLHF 的替代方案——而是它隐含的判断：在长尾对齐问题上，人类反馈的稀疏性可能本身就是瓶颈。'
   word_count: 1240
-  featured: true
+  featured: false
   url: '#'
 
 - title_zh: '让 LLM 学会开车，是真本事还是剧本？'

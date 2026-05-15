@@ -25,7 +25,7 @@
       <ul class="nav-links">
         <li><a href="{{ '/research/' | relative_url }}" {% if page.nav_active == 'research' %}class="nav-active"{% endif %}>Research</a></li>
         <li><a href="{{ '/publications/' | relative_url }}" {% if page.nav_active == 'publications' %}class="nav-active"{% endif %}>Publications</a></li>
-        <li><a href="#">Reading</a></li>
+        <li><a href="{{ '/reading/' | relative_url }}" {% if page.nav_active == 'reading' %}class="nav-active"{% endif %}>Reading</a></li>
         <li><a href="#">Resources</a></li>
         <li><a href="{{ '/people/' | relative_url }}" {% if page.nav_active == 'people' %}class="nav-active"{% endif %}>People</a></li>
         <li><a href="/#join" class="nav-cta">Join us</a></li>
@@ -77,7 +77,7 @@
           <div class="footer-col-label">Explore</div>
           <a href="{{ '/research/' | relative_url }}">Research</a>
           <a href="{{ '/publications/' | relative_url }}">Publications</a>
-          <a href="#">Notes · 札记</a>
+          <a href="{{ '/reading/' | relative_url }}">Notes · 札记</a>
           <a href="{{ '/people/' | relative_url }}">People</a>
         </div>
       </div>
