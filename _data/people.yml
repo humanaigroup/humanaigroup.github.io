@@ -13,7 +13,7 @@
 
 ## PhD Students
 - name: "Ziyue Lei"
-  name_zh: "雷子越"
+  name_zh: "雷子悦"
   role: phd
   year: 2023
   interest: "Risk perception in automated driving."
@@ -26,49 +26,7 @@
   interest: "LLM-based user simulation."
   photo: ""
 
-- name: "Suqi Lou"
-  name_zh: "楼苏琪"
-  role: phd
-  year: 2024
-  interest: "AI agents in skilled training."
-  photo: ""
-
-## Master Students
-- name: "Haoyuan Che"
-  name_zh: "车浩源"
-  role: master
-  year: 2024
-  interest: "HUD interfaces for driving."
-  photo: ""
-
-- name: "Fangyuan Ye"
-  name_zh: "叶方圆"
-  role: master
-  year: 2024
-  interest: "EMS skill learning systems."
-  photo: ""
-
-- name: "Xueting Wu"
-  name_zh: "吴雪婷"
-  role: master
-  year: 2025
-  interest: "Multimodal driver interfaces."
-  photo: ""
-
-- name: "Jingao Zhang"
-  name_zh: "张锦高"
-  role: master
-  year: 2025
-  interest: "Accessibility & voice interfaces."
-  photo: ""
-
 ## Alumni
-- name: "Yingying Huang"
-  name_zh: "黄莹莹"
-  role: alumni
-  degree: "MASTER · 2024"
-  now: "now at ByteDance"
-
 - name: "Weiyue Gao"
   name_zh: "高维悦"
   role: alumni

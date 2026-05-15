@@ -51,6 +51,7 @@ page_tagline: "PI, students, and researchers in the group."
 </div>
 
 {% assign masters = site.data.people | where: "role", "master" %}
+{% if masters.size > 0 %}
 <div class="people-section">
   <div class="people-section-label">MASTER STUDENTS · 硕士研究生</div>
   <div class="master-grid">
@@ -67,6 +68,7 @@ page_tagline: "PI, students, and researchers in the group."
     {% endfor %}
   </div>
 </div>
+{% endif %}
 
 {% assign alumni = site.data.people | where: "role", "alumni" %}
 <div class="people-section">
