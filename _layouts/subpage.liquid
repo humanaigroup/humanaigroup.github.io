@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.page_title_short | default: page.title }} — Human AI Group</title>
+  <meta name="description" content="{{ page.page_tagline | default: 'Human AI Group @ Zhejiang University' }}">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23B5121B'/></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Noto+Sans+SC:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/subpage.css' | relative_url }}">
+</head>
+<body>
+
+  <nav class="container">
+    <div class="site-nav">
+      <a href="{{ '/' | relative_url }}" class="nav-logo">
+        <span class="seal"></span>
+        <div class="nav-logo-text">
+          <div class="logo-en">Human AI Group</div>
+          <div class="logo-zh">人与智能系统</div>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="{{ '/research/' | relative_url }}" {% if page.nav_active == 'research' %}class="nav-active"{% endif %}>Research</a></li>
+        <li><a href="{{ '/publications/' | relative_url }}" {% if page.nav_active == 'publications' %}class="nav-active"{% endif %}>Publications</a></li>
+        <li><a href="#">Reading</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="{{ '/people/' | relative_url }}" {% if page.nav_active == 'people' %}class="nav-active"{% endif %}>People</a></li>
+        <li><a href="/#join" class="nav-cta">Join us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <hr class="divider">
+
+  <main class="subpage">
+    <div class="container">
+      <header class="subpage-header">
+        <div class="subpage-eyebrow">{{ page.page_eyebrow }}</div>
+        <h1 class="subpage-title">{{ page.page_title_display }}</h1>
+        <p class="subpage-tagline">{{ page.page_tagline }}</p>
+      </header>
+
+      <hr class="divider">
+
+      <div class="subpage-content">
+        {{ content }}
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-identity">
+          <div class="footer-name"><span class="seal seal--logo"></span> Human AI Group</div>
+          <div class="footer-name-zh zh">人与智能系统</div>
+          <div class="footer-affil">A research lab at Zhejiang University<br>College of Artificial Intelligence</div>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-label">Address</div>
+          <p>Room 303, Yueya Building<br>Zijingang Campus, ZJU</p>
+          <p class="zh-line zh">浙大紫金港校区<br>月牙楼 303 室</p>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-label">Contact</div>
+          <a href="mailto:wxiang@zju.edu.cn" class="footer-email">wxiang@zju.edu.cn</a>
+          <a href="https://github.com/humanaigroup">GitHub</a>
+          <a href="https://scholar.google.com/citations?user=gZAPGI8AAAAJ">Google Scholar</a>
+        </div>
+
+        <div class="footer-col">
+          <div class="footer-col-label">Explore</div>
+          <a href="{{ '/research/' | relative_url }}">Research</a>
+          <a href="{{ '/publications/' | relative_url }}">Publications</a>
+          <a href="#">札記 · Notes</a>
+          <a href="{{ '/people/' | relative_url }}">People</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 Human AI Group · College of Artificial Intelligence, Zhejiang University</span>
+        <span>Last updated May 15, 2026</span>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
