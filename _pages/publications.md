@@ -22,90 +22,27 @@ page_tagline: "35 papers across HCI, AI, and human-AI collaboration venues."
   </div>
 </div>
 
-<div class="pub-year">2025</div>
+{% assign years = site.data.publications | map: "year" | uniq | sort | reverse %}
+{% for year in years %}
+<div class="pub-year">{{ year }}</div>
 <hr class="pub-year-divider">
 
-<div class="pub-row" data-direction="user-simulation">
-  <span class="pub-badge top">IJHCS</span>
+{% assign pubs_in_year = site.data.publications | where: "year", year %}
+{% for pub in pubs_in_year %}
+<div class="pub-row" data-direction="{{ pub.direction }}">
+  <span class="pub-badge {% if pub.tier == 'top' %}top{% else %}secondary{% endif %}">{{ pub.venue }}</span>
   <div>
-    <div class="pub-title">Pika: Designing a social-support agent to improve drivers' experience in gig work</div>
-    <div class="pub-authors">Wei Xiang, Xiang Chen, Ting Guo, Mingming Zhou, Shuai Chen</div>
+    <div class="pub-title">{{ pub.title }}</div>
+    <div class="pub-authors">{{ pub.authors }}</div>
   </div>
   <div class="pub-links">
-    <a href="#">PDF</a>
-    <a href="#">DOI</a>
-    <a href="#">Bib</a>
+    {% for link in pub.links %}
+    <a href="{{ link[1] }}">{{ link[0] | upcase }}</a>
+    {% endfor %}
   </div>
 </div>
-
-<div class="pub-row" data-direction="co-perception">
-  <span class="pub-badge top">T-ITS</span>
-  <div>
-    <div class="pub-title">Visionary Co-Driver: Enhancing driver perception of potential risks</div>
-    <div class="pub-authors">Wei Xiang, Zhenxing Lei, Haoyan Che, Fangzhou Ye et al.</div>
-  </div>
-  <div class="pub-links">
-    <a href="#">PDF</a>
-    <a href="#">DOI</a>
-    <a href="#">Bib</a>
-  </div>
-</div>
-
-<div class="pub-row" data-direction="embodied-coaching">
-  <span class="pub-badge top">IJCAI</span>
-  <div>
-    <div class="pub-title">Hand by Hand: LLM driving EMS assistant for operational skill learning</div>
-    <div class="pub-authors">Wei Xiang, Zhenxing Lei, Haoyan Che, Fangzhou Ye et al.</div>
-  </div>
-  <div class="pub-links">
-    <a href="#">PDF</a>
-    <a href="#">Code</a>
-    <a href="#">Bib</a>
-  </div>
-</div>
-
-<div class="pub-row" data-direction="earlier">
-  <span class="pub-badge secondary">SMC</span>
-  <div>
-    <div class="pub-title">CareEmo: Supporting caregivers with personalized communication approaches</div>
-    <div class="pub-authors">Meng Li, Wei Xiang, Yi He, Menghan Jiang, Xiangshi Wu</div>
-  </div>
-  <div class="pub-links">
-    <a href="#">PDF</a>
-    <a href="#">DOI</a>
-    <a href="#">Bib</a>
-  </div>
-</div>
-
-<div class="pub-row" data-direction="user-simulation">
-  <span class="pub-badge top">CHI</span>
-  <div>
-    <div class="pub-title">Voice by the Non-sighted: Practices and challenges of audiobook voice actors</div>
-    <div class="pub-authors">Shuai Chen, Jiayi Zhang, Shixian Lou, Xiaoyu Wang, Wei Xiang, Lian Sun</div>
-  </div>
-  <div class="pub-links">
-    <a href="#">PDF</a>
-    <a href="#">DOI</a>
-    <a href="#">Bib</a>
-  </div>
-</div>
-
-<div class="pub-year">2024</div>
-<hr class="pub-year-divider">
-
-<div class="pub-row" data-direction="user-simulation">
-  <span class="pub-badge top">CHI</span>
-  <div>
-    <div class="pub-title">SimUser: Generating usability feedback by simulating various users</div>
-    <div class="pub-authors">Wei Xiang, Hanxian Zhu, Shixian Lou, Xiang Chen et al.</div>
-  </div>
-  <div class="pub-links">
-    <a href="#">PDF</a>
-    <a href="#">Abs</a>
-    <a href="#">DOI</a>
-    <a href="#">Bib</a>
-  </div>
-</div>
+{% endfor %}
+{% endfor %}
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

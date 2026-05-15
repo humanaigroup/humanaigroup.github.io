@@ -1,0 +1,32 @@
+- title_zh: '把"宪法"交给 AI 自己学'
+  subtitle_zh: '——读 Constitutional AI'
+  paper: 'Constitutional AI: Harmlessness from AI Feedback'
+  paper_meta: 'Bai et al. · Anthropic · 2022'
+  date: '2026-05-14'
+  author: 'Hanxian Zhu, PhD student'
+  quote: '这篇文章最值得反复读的，不是 RLHF 的替代方案——而是它隐含的判断：在长尾对齐问题上，人类反馈的稀疏性可能本身就是瓶颈。'
+  word_count: 1240
+  featured: true
+  url: '#'
+
+- title_zh: '让 LLM 学会开车，是真本事还是剧本？'
+  subtitle_zh: ''
+  paper: 'GPT-Driver: Learning to Drive with GPT'
+  paper_meta: 'Mao et al. · NeurIPS WS · 2023'
+  date: '2026-05-02'
+  author: 'Zhenxing Lei, PhD'
+  quote: ''
+  word_count: 0
+  featured: false
+  url: '#'
+
+- title_zh: '用 25 个 NPC 模拟一个小镇'
+  subtitle_zh: ''
+  paper: 'Generative Agents: Interactive Simulacra'
+  paper_meta: 'Park et al. · UIST · 2023'
+  date: '2026-04-22'
+  author: 'Shixian Lou, PhD'
+  quote: ''
+  word_count: 0
+  featured: false
+  url: '#'

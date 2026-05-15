@@ -1,0 +1,23 @@
+- date: "2025-03-05"
+  type: "NEW PAPER"
+  label: "IJHCS 2025"
+  title: "Pika: A social-support agent"
+  sub: "for gig-economy drivers"
+
+- date: "2026-02-28"
+  type: "READING"
+  label: "arXiv"
+  title: "Constitutional AI"
+  sub: "Bai et al., Anthropic"
+
+- date: "2026-02-20"
+  type: "PROJECT"
+  label: "demo released"
+  title: "EMS Skill Learning"
+  sub: "LLM-guided operational training"
+
+- date: "2026-02-12"
+  type: "NEWS"
+  label: "CHI 2026"
+  title: "SimUser accepted"
+  sub: ""

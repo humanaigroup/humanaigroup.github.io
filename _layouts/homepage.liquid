@@ -59,30 +59,13 @@
 
         <aside class="hero-sidebar">
           <div class="hero-sidebar-label">RECENT · 近期</div>
-
+          {% for item in site.data.news limit:4 %}
           <div class="recent-item">
-            <div class="recent-meta">MAR 5 · NEW PAPER · IJHCS 2025</div>
-            <div class="recent-title">Pika: A social-support agent</div>
-            <div class="recent-sub">for gig-economy drivers</div>
+            <div class="recent-meta">{{ item.date | date: "%b %-d" | upcase }} · {{ item.type }} · {{ item.label }}</div>
+            <div class="recent-title">{{ item.title }}</div>
+            {% if item.sub != "" %}<div class="recent-sub">{{ item.sub }}</div>{% endif %}
           </div>
-
-          <div class="recent-item">
-            <div class="recent-meta">FEB 28 · READING · arXiv</div>
-            <div class="recent-title">Constitutional AI</div>
-            <div class="recent-sub">Bai et al., Anthropic</div>
-          </div>
-
-          <div class="recent-item">
-            <div class="recent-meta">FEB 20 · PROJECT · demo released</div>
-            <div class="recent-title">EMS Skill Learning</div>
-            <div class="recent-sub">LLM-guided operational training</div>
-          </div>
-
-          <div class="recent-item">
-            <div class="recent-meta">FEB 12 · NEWS · CHI 2026</div>
-            <div class="recent-title">SimUser accepted</div>
-          </div>
-
+          {% endfor %}
           <div class="hero-sidebar-footer">
             <a href="#" class="link-cta">View all activity →</a>
           </div>
@@ -170,65 +153,19 @@
       <hr class="divider">
 
       <div class="lab-list">
+        {% for pub in site.data.publications limit:5 %}
         <div class="lab-row">
           <div>
-            <div class="lab-type">Paper</div>
-            <div class="lab-venue">IJHCS · 2025</div>
+            <div class="lab-type">{{ pub.type | capitalize }}</div>
+            <div class="lab-venue">{{ pub.venue }} · {{ pub.year }}</div>
           </div>
           <div>
-            <div class="lab-title">Pika: A social-support agent for gig-economy drivers</div>
-            <div class="lab-authors">Wei Xiang, Xiang Chen, Ting Guo et al.</div>
+            <div class="lab-title">{{ pub.title }}</div>
+            <div class="lab-authors">{{ pub.authors | truncatewords: 8 }}</div>
           </div>
-          <a href="#" class="lab-cta">Read →</a>
+          <a href="{{ pub.links.pdf | default: '#' }}" class="lab-cta">Read →</a>
         </div>
-
-        <div class="lab-row">
-          <div>
-            <div class="lab-type">Paper</div>
-            <div class="lab-venue">IEEE T-ITS · 2025</div>
-          </div>
-          <div>
-            <div class="lab-title">Visionary Co-Driver: Enhancing driver perception of risks</div>
-            <div class="lab-authors">Wei Xiang, Zhenxing Lei, Haoyan Che et al.</div>
-          </div>
-          <a href="#" class="lab-cta">Read →</a>
-        </div>
-
-        <div class="lab-row">
-          <div>
-            <div class="lab-type">Paper</div>
-            <div class="lab-venue">IJCAI · 2025</div>
-          </div>
-          <div>
-            <div class="lab-title">Hand by Hand: LLM-driven EMS assistant for skill learning</div>
-            <div class="lab-authors">Wei Xiang, Zhenxing Lei, Haoyan Che et al.</div>
-          </div>
-          <a href="#" class="lab-cta">Read →</a>
-        </div>
-
-        <div class="lab-row">
-          <div>
-            <div class="lab-type">Paper</div>
-            <div class="lab-venue">CHI · 2024</div>
-          </div>
-          <div>
-            <div class="lab-title">SimUser: Generating usability feedback by simulating users</div>
-            <div class="lab-authors">Wei Xiang, Hanxian Zhu, Shixian Lou et al.</div>
-          </div>
-          <a href="#" class="lab-cta">Read →</a>
-        </div>
-
-        <div class="lab-row">
-          <div>
-            <div class="lab-type">Project</div>
-            <div class="lab-venue">FEB 2026</div>
-          </div>
-          <div>
-            <div class="lab-title">EMS Skill Learning · Public demo released</div>
-            <div class="lab-authors">Open-source LLM-guided operational training environment.</div>
-          </div>
-          <a href="#" class="lab-cta">Try →</a>
-        </div>
+        {% endfor %}
       </div>
     </div>
   </section>
@@ -239,7 +176,7 @@
       <div class="section-header">
         <div class="eyebrow">04 ─── SECTION</div>
         <div class="header-row" style="margin-top: 16px;">
-          <h2 class="section-title"><span class="zh">札记</span> · Notes</h2>
+          <h2 class="section-title">Notes · <span class="zh">札记</span></h2>
           <a href="#" class="link-cta">View all notes →</a>
         </div>
         <p class="tagline">Papers students in the group think are worth reading and writing about.</p>
@@ -249,48 +186,42 @@
       <hr class="divider">
 
       <div class="notes-grid">
+        {% assign featured_note = site.data.notes | where: "featured", true | first %}
+        {% if featured_note %}
         <div class="note-featured">
           <div class="note-label">
             <span class="seal seal--small"></span>
             <span class="note-label-text">FEATURED · 精读</span>
-            <span class="note-date">MAY 14, 2026</span>
+            <span class="note-date">{{ featured_note.date | date: "%b %-d, %Y" | upcase }}</span>
           </div>
-          <div class="note-paper-title">Constitutional AI:<br>Harmlessness from AI Feedback</div>
-          <div class="note-paper-meta">Bai et al. · Anthropic · 2022</div>
+          <div class="note-paper-title">{{ featured_note.paper }}</div>
+          <div class="note-paper-meta">{{ featured_note.paper_meta }}</div>
           <div class="note-card-divider"></div>
-          <div class="note-title-zh">把"宪法"交给 AI 自己学</div>
-          <div class="note-subtitle zh">——读 Constitutional AI</div>
-          <blockquote class="note-quote">这篇文章最值得反复读的，不是 RLHF 的替代方案——而是它隐含的判断：在长尾对齐问题上，人类反馈的稀疏性可能本身就是瓶颈。</blockquote>
+          <div class="note-title-zh">{{ featured_note.title_zh }}</div>
+          {% if featured_note.subtitle_zh != "" %}<div class="note-subtitle zh">{{ featured_note.subtitle_zh }}</div>{% endif %}
+          <blockquote class="note-quote">{{ featured_note.quote }}</blockquote>
           <div class="note-footer">
-            <span class="note-author">— Hanxian Zhu, PhD student</span>
-            <a href="#" class="note-read">Read full note (1,240 字) →</a>
+            <span class="note-author">— {{ featured_note.author }}</span>
+            <a href="{{ featured_note.url }}" class="note-read">Read full note ({{ featured_note.word_count }} 字) →</a>
           </div>
         </div>
+        {% endif %}
 
         <div class="notes-side">
+          {% assign side_notes = site.data.notes | where: "featured", false %}
+          {% for note in side_notes limit:2 %}
           <div class="note-small">
-            <div class="note-sm-date">MAY 2, 2026</div>
-            <div class="note-sm-paper">GPT-Driver: Learning to Drive with GPT</div>
-            <div class="note-sm-meta">Mao et al. · NeurIPS WS · 2023</div>
+            <div class="note-sm-date">{{ note.date | date: "%b %-d, %Y" | upcase }}</div>
+            <div class="note-sm-paper">{{ note.paper }}</div>
+            <div class="note-sm-meta">{{ note.paper_meta }}</div>
             <div class="note-sm-divider"></div>
-            <div class="note-sm-title zh">让 LLM 学会开车，是真本事还是剧本？</div>
+            <div class="note-sm-title zh">{{ note.title_zh }}</div>
             <div class="note-sm-footer">
-              <span class="note-sm-author">— Zhenxing Lei, PhD</span>
-              <a href="#" class="note-sm-read">Read →</a>
+              <span class="note-sm-author">— {{ note.author }}</span>
+              <a href="{{ note.url }}" class="note-sm-read">Read →</a>
             </div>
           </div>
-
-          <div class="note-small">
-            <div class="note-sm-date">APR 22, 2026</div>
-            <div class="note-sm-paper">Generative Agents: Interactive Simulacra</div>
-            <div class="note-sm-meta">Park et al. · UIST · 2023</div>
-            <div class="note-sm-divider"></div>
-            <div class="note-sm-title zh">用 25 个 NPC 模拟一个小镇</div>
-            <div class="note-sm-footer">
-              <span class="note-sm-author">— Shixian Lou, PhD</span>
-              <a href="#" class="note-sm-read">Read →</a>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
@@ -379,7 +310,7 @@
           <div class="footer-col-label">Explore</div>
           <a href="{{ '/research/' | relative_url }}">Research</a>
           <a href="{{ '/publications/' | relative_url }}">Publications</a>
-          <a href="#">札記 · Notes</a>
+          <a href="#">Notes · 札记</a>
           <a href="{{ '/people/' | relative_url }}">People</a>
         </div>
       </div>

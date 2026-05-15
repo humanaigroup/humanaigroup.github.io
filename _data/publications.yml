@@ -1,0 +1,72 @@
+- title: "Pika: Designing a social-support agent to improve drivers' experience in gig work"
+  authors: "Wei Xiang, Xiang Chen, Ting Guo, Mingming Zhou, Shuai Chen"
+  venue: IJHCS
+  year: 2025
+  direction: user-simulation
+  tier: top
+  type: paper
+  links:
+    pdf: "#"
+    doi: "#"
+    bib: "#"
+
+- title: "Visionary Co-Driver: Enhancing driver perception of potential risks"
+  authors: "Wei Xiang, Zhenxing Lei, Haoyan Che, Fangzhou Ye et al."
+  venue: T-ITS
+  year: 2025
+  direction: co-perception
+  tier: top
+  type: paper
+  links:
+    pdf: "#"
+    doi: "#"
+    bib: "#"
+
+- title: "Hand by Hand: LLM driving EMS assistant for operational skill learning"
+  authors: "Wei Xiang, Zhenxing Lei, Haoyan Che, Fangzhou Ye et al."
+  venue: IJCAI
+  year: 2025
+  direction: embodied-coaching
+  tier: top
+  type: paper
+  links:
+    pdf: "#"
+    code: "#"
+    bib: "#"
+
+- title: "CareEmo: Supporting caregivers with personalized communication approaches"
+  authors: "Meng Li, Wei Xiang, Yi He, Menghan Jiang, Xiangshi Wu"
+  venue: SMC
+  year: 2025
+  direction: earlier
+  tier: secondary
+  type: paper
+  links:
+    pdf: "#"
+    doi: "#"
+    bib: "#"
+
+- title: "Voice by the Non-sighted: Practices and challenges of audiobook voice actors"
+  authors: "Shuai Chen, Jiayi Zhang, Shixian Lou, Xiaoyu Wang, Wei Xiang, Lian Sun"
+  venue: CHI
+  year: 2025
+  direction: user-simulation
+  tier: top
+  type: paper
+  links:
+    pdf: "#"
+    doi: "#"
+    bib: "#"
+
+- title: "SimUser: Generating usability feedback by simulating various users"
+  authors: "Wei Xiang, Hanxian Zhu, Shixian Lou, Xiang Chen et al."
+  venue: CHI
+  year: 2024
+  direction: user-simulation
+  tier: top
+  type: paper
+  links:
+    pdf: "#"
+    abs: "#"
+    doi: "#"
+    bib: "#"

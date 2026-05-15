@@ -1,0 +1,82 @@
+## PI
+- name: "Wei Xiang"
+  name_zh: "向为"
+  role: pi
+  title_en: "Associate Professor, College of Artificial Intelligence"
+  title_zh: "浙江大学 · 人工智能学院 · 副教授"
+  bio: "Interaction and experience in the age of intelligence — human-AI collaboration in driving, training, and healthcare. PhD from Zhejiang University. Previously a visiting researcher at MIT Media Lab."
+  email: "wxiang@zju.edu.cn"
+  scholar: "https://scholar.google.com/citations?user=gZAPGI8AAAAJ"
+  github: "https://github.com/humanaigroup"
+  dblp: "#"
+  photo: ""
+
+## PhD Students
+- name: "Zhenxing Lei"
+  name_zh: "雷镇兴"
+  role: phd
+  year: 2023
+  interest: "Risk perception in automated driving."
+  photo: ""
+
+- name: "Hanxian Zhu"
+  name_zh: "朱晗萱"
+  role: phd
+  year: 2024
+  interest: "LLM-based user simulation."
+  photo: ""
+
+- name: "Shixian Lou"
+  name_zh: "楼世贤"
+  role: phd
+  year: 2024
+  interest: "AI agents in skilled training."
+  photo: ""
+
+## Master Students
+- name: "Haoyan Che"
+  name_zh: "车浩岩"
+  role: master
+  year: 2024
+  interest: "HUD interfaces for driving."
+  photo: ""
+
+- name: "Fangzhou Ye"
+  name_zh: "叶方舟"
+  role: master
+  year: 2024
+  interest: "EMS skill learning systems."
+  photo: ""
+
+- name: "Xiangshi Wu"
+  name_zh: "吴翔实"
+  role: master
+  year: 2025
+  interest: "Multimodal driver interfaces."
+  photo: ""
+
+- name: "Jiayi Zhang"
+  name_zh: "张佳怡"
+  role: master
+  year: 2025
+  interest: "Accessibility & voice interfaces."
+  photo: ""
+
+## Alumni
+- name: "Yufei Huang"
+  name_zh: "黄宇飞"
+  role: alumni
+  degree: "MASTER · 2024"
+  now: "now at ByteDance"
+
+- name: "Wanying Gao"
+  name_zh: "高婉莹"
+  role: alumni
+  degree: "PHD · 2023"
+  now: "now Assistant Prof at TJU"
+
+- name: "Yijia Wu"
+  name_zh: "吴一佳"
+  role: alumni
+  degree: "MASTER · 2023"
+  now: "now at Alibaba DAMO Academy"
